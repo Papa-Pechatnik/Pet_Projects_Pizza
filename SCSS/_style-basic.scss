@@ -1,0 +1,68 @@
+$colorOrange: #ff7010;
+$colorBlack: #191919;
+$colorRed: #e23535;
+$colorWhite: #ffffff;
+$colorGreen: #24d17e;
+
+$colorGrayText: #a5a5a5;
+$colorGrayLine: #f0f0f0;
+$colorGrayBackground: #f9f9f9;
+$colorKeyPearl: #ffeee2;
+
+body {
+  font-family: "SF Pro Text";
+  font-style: normal;
+}
+
+/* text */
+
+@mixin font-Inter-600 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+}
+
+h1 { /* cкорее лого */};
+h3 {  /* пока не определено */};
+
+
+h2 {
+  @include font-Inter-600;
+  font-size: 40px;
+  line-height: 120%; /* or 48px;*/
+
+  color: $colorBlack;
+}
+
+
+
+h4 {
+  @include font-Inter-600;
+  font-size: 20px;
+  line-height: 140%; /*  or 28px*/
+
+  color: $colorBlack;
+}
+
+.textNormal {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%; /* or 22px*/
+
+  color: $colorBlack;
+}
+
+.subTitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 133%; /* or 24px */
+
+  color: $colorBlack;
+}
+
+/* container width */
+.container {
+  max-width: 1290px;
+}
+
+/* END BASIC ELEMENTS */

@@ -1,0 +1,162 @@
+/* ----------------- FONTS ---------------------*/
+
+/* Inter - 600 normal -------------------------*/
+@font-face {
+    font-family: "Inter";
+    src: url('../Fonts/Inter/Inter-SemiBold.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../Fonts/Inter/Inter-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Fonts/Inter/Inter-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../Fonts/Inter/Inter-SemiBold.woff') format('woff'), /* Modern Browsers */
+         url('../Fonts/Inter/Inter-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
+         /*url('../Fonts/heebo/Heebo-Regular.svg#Roboto') format('svg');  Legacy iOS */
+         font-style: normal;
+         font-weight: 600;
+       }
+
+/* font-family SF Pro Text --------------------*/
+        /* SF Pro Text - 400 normal*/
+@font-face {
+    font-family: "SF Pro Text";
+    src: url('../Fonts/SanFranciscoProText/Regular/SFProTextRegular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../Fonts/SanFranciscoProText/Regular/SFProTextRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Fonts/SanFranciscoProText/Regular/SFProTextRegular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../Fonts/SanFranciscoProText/Regular/SFProTextRegular.woff') format('woff'), /* Modern Browsers */
+         url('../Fonts/SanFranciscoProText/Regular/SFProTextRegular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fonts/SanFranciscoProText/Regular/SFProTextRegularsvg#Roboto') format('svg');  /* Legacy iOS */
+         font-style: normal;
+         font-weight: 400;
+       }
+
+        /* SF Pro Text - 500 normal*/
+@font-face {
+    font-family: "SF Pro Text";
+    src: url('../Fonts/SanFranciscoProText/Medium/SFProTextMedium.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../Fonts/SanFranciscoProText/Medium/SFProTextMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Fonts/SanFranciscoProText/Medium/SFProTextMedium.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../Fonts/SanFranciscoProText/Medium/SFProTextMedium.woff') format('woff'), /* Modern Browsers */
+         url('../Fonts/SanFranciscoProText/Medium/SFProTextMedium.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fonts/SanFranciscoProText/Medium/SFProTextMedium.svg#Roboto') format('svg');  /* Legacy iOS */
+         font-style: normal;
+         font-weight: 500;
+       }
+
+        /* SF Pro Text - 600 normal*/
+@font-face {
+    font-family: "SF Pro Text";
+    src: url('../Fonts/SanFranciscoProText/Semibold/SFProTextSemibold.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../Fonts/SanFranciscoProText/Semibold/SFProTextSemibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Fonts/SanFranciscoProText/Semibold/SFProTextSemibold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../Fonts/SanFranciscoProText/Semibold/SFProTextSemibold.woff') format('woff'), /* Modern Browsers */
+         url('../Fonts/SanFranciscoProText/Semibold/SFProTextSemibold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fonts/SanFranciscoProText/Semibold/SFProTextSemibold.svg#Roboto') format('svg');  /* Legacy iOS */
+         font-style: normal;
+         font-weight: 600;
+        }
+
+        /* SF Pro Text - 700 normal*/
+@font-face {
+    font-family: "SF Pro Text";
+    src: url('../Fonts/SanFranciscoProText/Bold/SFProTextBold.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../Fonts/SanFranciscoProText/Bold/SFProTextBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../Fonts/SanFranciscoProText/Bold/SFProTextBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../Fonts/SanFranciscoProText/Bold/SFProTextBold.woff') format('woff'), /* Modern Browsers */
+         url('../Fonts/SanFranciscoProText/Bold/SFProTextBold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../Fonts/SanFranciscoProText/Bold/SFProTextBold.svg#Roboto') format('svg');  /* Legacy iOS */
+         font-style: normal;
+         font-weight: 700;
+        }
+
+
+/* ----------------- FONTS ICON ---------------------*/
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../Fonts/Icon/icomoon-1/icomoon.eot?t1vcmu');
+    src:  url('../Fonts/Icon/icomoon-1/icomoon.eot?t1vcmu#iefix') format('embedded-opentype'),
+      url('../Fonts/Icon/icomoon-1/icomoon.ttf?t1vcmu') format('truetype'),
+      url('../Fonts/Icon/icomoon-1/icomoon.woff?t1vcmu') format('woff'),
+      url('../Fonts/Icon/icomoon-1/icomoon.svg?t1vcmu#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"]::before,
+  [class*=" icon-"]::before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-account:before {
+    content: "\e900";
+  }
+  .icon-Arrow-down:before {
+    content: "\e901";
+  }
+  .icon-Arrow-left:before {
+    content: "\e902";
+  }
+  .icon-Calendar:before {
+    content: "\e903";
+  }
+  .icon-Cross-1:before {
+    content: "\e904";
+  }
+  .icon-Cross-2:before {
+    content: "\e905";
+  }
+  .icon-Done:before {
+    content: "\e906";
+  }
+  .icon-Facebok:before {
+    content: "\e907";
+  }
+  .icon-Filter:before {
+    content: "\e908";
+  }
+  .icon-Info:before {
+    content: "\e909";
+  }
+  .icon-Instagram:before {
+    content: "\e90a";
+  }
+  .icon-Location1:before {
+    content: "\e90b";
+  }
+  .icon-Location2:before {
+    content: "\e90c";
+  }
+  .icon-Menu:before {
+    content: "\e90d";
+  }
+  .icon-Minus:before {
+    content: "\e90e";
+  }
+  .icon-Plus:before {
+    content: "\e90f";
+  }
+  .icon-Send:before {
+    content: "\e910";
+  }
+  .icon-Shopping-bag:before {
+    content: "\e911";
+  }
+  .icon-tel:before {
+    content: "\e912";
+  }
+
+/* ----------------- END FONTS ---------------------*/
